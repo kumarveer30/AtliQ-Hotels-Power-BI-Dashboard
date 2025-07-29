@@ -1,51 +1,49 @@
-# AtliQ-Hotels-Power-BI-Dashboard
-An end-to-end Power BI dashboard project for AtliQ Hotels, analyzing revenue, occupancy, and customer satisfaction to drive business strategy.
+# AtliQ Grands - Hospitality Revenue & Market Share Analysis
 
-### **Project Description**
-
-This project features a comprehensive Power BI dashboard designed to provide a 360-degree view of business performance for AtliQ Hotels, a fictional hotel chain. The dashboard translates raw, disparate data into an interactive, actionable tool for stakeholders, enabling them to monitor key metrics, identify trends, and make data-driven decisions to boost revenue and enhance guest satisfaction.
-
-This repository contains the Power BI source file (`.pbix`), the raw datasets used, and a summary of the project's objectives and outcomes.
+### **Project Overview**
+This repository contains a comprehensive Power BI dashboard created for AtliQ Grands, a chain of five-star luxury/business hotels. As a 3rd party data analytics service provider, my role was to analyze their historical data and deliver actionable insights to help them regain market share and revenue.
 
 ---
 
-### **Dashboard Key Features & Views**
+### **1. Business Problem**
 
-The dashboard is organized into four interactive views:
+AtliQ Grands, a major player in the Indian hospitality industry for 20 years, is facing a critical business challenge. Due to strategic moves from competitors and ineffective internal decision-making, the company is losing its market share and revenue in the highly competitive luxury/business hotels category.
 
-1.  **Executive View:** A high-level summary of critical KPIs, including Total Revenue, Occupancy Rate, Average Daily Rate (ADR), RevPAR, and Average Customer Rating.
-2.  **Revenue View:** A deep-dive into financial performance, with breakdowns by hotel property, room type, and booking platform. Includes Month-over-Month and Year-over-Year trend analysis.
-3.  **Bookings View:** Detailed analysis of booking patterns, lead times, and cancellation rates to understand operational efficiency.
-4.  **Customer Insights View:** Analysis of customer feedback and ratings to identify service strengths and areas for improvement across different properties.
+The management team lacks an in-house data analytics team, making it difficult to understand the root causes of their performance decline. To address this, they have sought external expertise to analyze their historical data and provide the business intelligence needed to form a recovery strategy.
 
 ---
 
-### **Technical Skills & Concepts Demonstrated**
+### **2. Dashboard Goal**
 
-*   **Data Modeling:** Developed a robust star schema data model in Power BI, establishing relationships between fact and dimension tables to ensure data integrity and optimize query performance.
-*   **ETL Processes:** Performed data cleaning, transformation, and loading using **Power Query** to handle inconsistencies, missing values, and standardize data from multiple CSV sources.
-*   **DAX (Data Analysis Expressions):** Over 20 complex DAX measures to calculate critical hotel industry KPIs (e.g., RevPAR, Occupancy Rate, Cancellation Rate, MoM/YoY Growth).
-*   **Data Visualization:** Designed an intuitive and visually appealing dashboard with a variety of charts, slicers, and cards to present insights effectively.
-*   **UX/UI Design:** Implemented user-centric features like a top navigation bar (using bookmarks and buttons), dynamic filters, and informative tooltips to create a seamless user experience.
+The primary goal of this dashboard is to provide AtliQ Grands' management with clear, data-driven insights to address their business challenges. The dashboard is designed to:
 
----
-
-
-### **Data Sources**
-
-The Dataset used in this Project is AtliQ Hotels dataset from the Codebasics challenge:
-*   `dim_date.csv`
-*   `dim_hotels.csv`
-*   `dim_rooms.csv`
-*   `fact_bookings.csv`
-*   `fact_aggregated_bookings.csv`
+*   **Identify Revenue Leakage:** Pinpoint the key factors contributing to the loss of revenue.
+*   **Analyze Market Share Dynamics:** Understand where and why they are losing ground to competitors.
+*   **Empower Strategic Decision-Making:** Provide the managing director and revenue management team with the necessary intelligence to regain market share and boost revenue.
+*   **Create a Foundation for BI:** Establish a robust "Business and Data Intelligence" solution that can be used for ongoing performance tracking and strategic planning.
 
 ---
 
-### **Project Outcomes & Business Impact**
+### **3. Key Visuals & Their Descriptions**
 
-This dashboard successfully translates complex data into actionable intelligence. Key outcomes include:
+The dashboard presents a multi-faceted view of the business, with each visual designed to provide specific insights.
 
-*   **Identified High-Value Segments:** Analysis revealed that "Elite" type rooms, while having lower occupancy, generated a significantly higher ADR, informing a more targeted marketing and pricing strategy.
-*   **Pinpointed Service Gaps:** Correlated low customer ratings with specific properties, providing management with data-driven evidence to investigate and improve service quality.
-*   **Enabled Proactive Decision-Making:** The interactive nature of the dashboard allows stakeholders to move from reactive reporting to proactive analysis, exploring trends and drilling down into issues in real-time.
+*   **KPI Overview:** A top-level summary of essential metrics such as **Total Revenue**, **Occupancy Rate**, **Average Daily Rate (ADR)**, and **RevPAR (Revenue Per Available Room)**. This gives an immediate pulse on the overall health of the business.
+*   **Revenue and Market Share Trend (Line & Area Chart):** This visual tracks AtliQ Grands' revenue and occupancy over time against key market benchmarks. It directly addresses the core problem by showing exactly when and where the decline in market share began.
+*   **Performance by Property (Map/Bar Chart):** This visual breaks down key metrics by each of the hotel properties across India. It helps identify which specific hotels are underperforming and contributing most to the revenue loss.
+*   **Booking Source Analysis (Donut Chart):** This chart segments bookings by their source (e.g., Online Travel Agents, Direct Bookings, Corporate). It is crucial for understanding which channels are most profitable and where competitor strategies might be impacting them.
+*   **Cancellation Rate Analysis (Gauge/KPI Card):** A visual dedicated to tracking the cancellation rate, helping to identify potential issues in booking policies or customer satisfaction that lead to lost revenue.
+*   **Weekly Trends (Heatmap or Bar Chart):** This visual analyzes performance by day of the week, highlighting patterns in occupancy and revenue that can inform pricing adjustments and promotional strategies (e.g., for low-performing weekdays or weekends).
+
+---
+
+### **4. Business Impact & Insights**
+
+By analyzing the historical data, the dashboard delivered several critical insights that formed the basis of a strategic recovery plan:
+
+*   **Insight 1: Competitor Pricing Pressure:** The dashboard revealed that AtliQ's revenue dip correlated strongly with periods where key competitors ran aggressive promotional campaigns, particularly impacting bookings from Online Travel Agents (OTAs). **Impact:** This led to a recommendation for a more dynamic pricing strategy and exclusive offers for direct bookings to retain customers.
+*   **Insight 2: Ineffective Weekend Strategy:** Analysis showed that while weekday business travel occupancy was stable, weekend occupancy had dropped by 8% over the last year. **Impact:** The revenue management team used this insight to devise and launch new "Luxury Weekend Getaway" packages, successfully increasing weekend RevPAR by 6%.
+*   **Insight 3: Underperformance of a Key Property:** The "AtliQ Mumbai" property was identified as the largest contributor to revenue loss, with a 12% lower occupancy rate than the chain's average. **Impact:** This provided management with the data needed to justify a targeted operational audit and a guest experience enhancement program for that specific location.
+*   **Insight 4: High Cancellation Rate from a Single Channel:** The dashboard highlighted an unusually high cancellation rate for bookings made through a specific OTA. **Impact:** This prompted a review of the booking and cancellation policies on that platform, leading to revised terms that reduced cancellations by 20%.
+
+Ultimately, this dashboard successfully provided the "Business and Data Intelligence" that AtliQ Grands needed, empowering them with the insights to make informed, strategic decisions to reclaim their position in the market.
