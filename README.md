@@ -24,7 +24,7 @@ The dashboard is organized into four interactive views:
 
 *   **Data Modeling:** Developed a robust star schema data model in Power BI, establishing relationships between fact and dimension tables to ensure data integrity and optimize query performance.
 *   **ETL Processes:** Performed data cleaning, transformation, and loading using **Power Query** to handle inconsistencies, missing values, and standardize data from multiple CSV sources.
-*   **DAX (Data Analysis Expressions):** Authored over 20 complex DAX measures to calculate critical hotel industry KPIs (e.g., RevPAR, Occupancy Rate, Cancellation Rate, MoM/YoY Growth).
+*   **DAX (Data Analysis Expressions):** Over 20 complex DAX measures to calculate critical hotel industry KPIs (e.g., RevPAR, Occupancy Rate, Cancellation Rate, MoM/YoY Growth).
 *   **Data Visualization:** Designed an intuitive and visually appealing dashboard with a variety of charts, slicers, and cards to present insights effectively.
 *   **UX/UI Design:** Implemented user-centric features like a top navigation bar (using bookmarks and buttons), dynamic filters, and informative tooltips to create a seamless user experience.
 
